@@ -37,3 +37,37 @@ ul li a {
 ul li a:hover{
     font-style: italic;
 }
+
+.nav-style{
+
+}
+
+.nav-style a {
+    color:#073F60;
+    position:relative;
+}
+
+.nav-style a::after, .nav-style a::before {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: #073F60;
+    position: absolute;
+    left: 0;
+    bottom: 12px;
+    /* scale x only affects the x axis*/
+    transform: scaleX(0);
+    transform-origin: left center;
+    transition: .5s;
+}
+
+.nav-style a::before{
+    bottom: auto;
+    top:12px;
+    transform-origin: right center;
+}
+
+.nav-style a:hover::after, .nav-style a:hover::before {
+    transform: scaleX(1);
+}

@@ -11,6 +11,7 @@
     <title>Document</title>
 </head>
 <body>
+    
     <nav class="navbar primary"> <!-- d-flex justify-content-center -->
         <h6 class="secondary"> Travel 363 </h6>
  
@@ -18,34 +19,36 @@
             <span class="navbar-toggler-icon"></span>
         </button>  
 
-        <div class="collapse show col-lg-6 " id="navbarNavDropdown"> <!-- learn how to collaps/ uncollaps-->
+        
+        <div class="collapse show col-lg-6 nav-style" id="navbarNavDropdown"> <!-- learn how to collaps/ uncollaps-->
             <ul class="navbar-nav navbar-expand-lg justify-content-between"> <!-- ml-auto-->
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home </a> <!-- <span class="sr-only">(current)</span> look into it-->
+                    <a class="nav-link" href="#home">Home </a> <!-- <span class="sr-only">(current)</span> look into it-->
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Lodging</a> <!-- <span class="sr-only">(current)</span> look into it-->
+                    <a class="nav-link" href="#lodging">Lodging</a> <!-- <span class="sr-only">(current)</span> look into it-->
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Restaurants</a> <!-- <span class="sr-only">(current)</span> look into it-->
+                    <a class="nav-link" href="#restaurants">Restaurants</a> <!-- <span class="sr-only">(current)</span> look into it-->
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Things To Do</a> <!-- <span class="sr-only">(current)</span> look into it-->
+                    <a class="nav-link" href="#thingstodo">Things To Do</a> <!-- <span class="sr-only">(current)</span> look into it-->
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Gallery</a> <!-- <span class="sr-only">(current)</span> look into it-->
+                    <a class="nav-link" href="#gallery">Gallery</a> <!-- <span class="sr-only">(current)</span> look into it-->
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Contact</a> <!-- <span class="sr-only">(current)</span> look into it-->
+                    <a class="nav-link" href="#contact">Contact</a> <!-- <span class="sr-only">(current)</span> look into it-->
                 </li>
             </ul>
         </div>
     </nav>
+   
     
     <img class="col-12" src="images/map.jpg" alt="Map of Block Island"> 
     <!-- maybe get a better picture for the header -->
 
-    <h5 class="card-title m-3 secondary">About</h5>
+    <h5 id="about" class="card-title m-3 secondary">About</h5>
     <div class="card m-3"> 
         <div class="card-body d-flex justify-content-center bg-light">
             <div> 
@@ -55,7 +58,7 @@
         </div>
     </div>
 
-    <h5 class="m-3 secondary">Lodging</h5>
+    <h5 id="lodging" class="m-3 secondary">Lodging</h5>
     <section class="d-flex flex-wrap justify-content-center m-3">
         <section class="card col-12 col-md-6 col-lg-4 p-2 bg-light">
             <img src="images/narragansettinn.jpeg" class="card-img-top" alt="Photo of the Narragansett Inn" height="250">
@@ -84,7 +87,7 @@
         <a href="#" class="btn btn-primary button m-2">More</a> 
     </section>
 
-    <h5 class="m-3 secondary">Restaurants</h5>
+    <h5 id="restaurants" class="m-3 secondary">Restaurants</h5>
     <section class="d-flex flex-wrap justify-content-center m-3">
         <section class="card col-12 col-md-6 col-lg-4 p-2 bg-light">
             <img src="images/theoar.jpg" class="card-img-top" alt="Photo of The Oar restaurant" height="250">
@@ -113,7 +116,7 @@
         <a href="#" class="btn btn-primary button m-2">More</a>
     </section>
 
-    <h5 class="m-3 secondary">Things To Do</h5>
+    <h5 id="thingstodo" class="m-3 secondary">Things To Do</h5>
     <section class="d-flex flex-wrap justify-content-center m-3"> 
         <div class="card mb-3 col-12 col-lg-6 bg-light">
             <div class="row no-gutters">
@@ -201,7 +204,7 @@
         </div>
     </section>
 
-    <h5 class="m-3 secondary">Gallery</h5>
+    <h5 id="gallery" class="m-3 secondary">Gallery</h5>
     <section class="d-flex flex-wrap justify-content-center m-3"> 
         <div class="bg-light card text-white col-6 col-md-4 col-lg-3">
             <img src="images/bars.jpeg" class="card-img my-auto rounded-lg" height="200" alt="photo of a red cocktail in a martini glass">
@@ -278,7 +281,7 @@
         <a href="#" class="btn btn-primary button m-2">More</a>
     </section>
 
-    <h5 class="m-3 secondary">Contact</h5>
+    <h5 id="contact" class="m-3 secondary">Contact</h5>
     <form class="m-3">
         <div class="form-group">
             <label >Name</label>

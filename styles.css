@@ -38,6 +38,11 @@ ul li a:hover{
     font-style: italic;
 }
 
+.italic-hov:hover{
+    font-style: italic;
+}
+
+
 .nav-style{
 
 }
@@ -70,4 +75,21 @@ ul li a:hover{
 
 .nav-style a:hover::after, .nav-style a:hover::before {
     transform: scaleX(1);
+}
+
+.img-grow{
+    transition: all .2s ease-in-out;
+}
+
+.img-grow:hover{
+    transform: scale(1.05);
+}
+
+@keyframes growshrink{
+    0% {transform:  scale(1);}
+    50% { transform:  scale(1.5);}
+    100% {transform:  scale(1);}
+}
+.pulse{
+    animation: growshrink 1s infinite;
 }

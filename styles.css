@@ -1,5 +1,7 @@
 body{
-
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+    padding: 0;
 }
 
 .primary{
@@ -8,4 +10,22 @@ body{
 
 .secondary{
     color: #073F60;
+}
+
+.a{
+    color: #073F60;
+}
+
+.shadow {
+    text-shadow: 2px 2px #000000;
+}
+
+.button{
+    background-color: #073F60;
+    text: white;
+}
+
+.photoTag{
+    background-color: rgba(0, 0, 0, 0.15);
+    padding: 5px 10px 5px 5px;
 }

@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar primary"> <!-- d-flex justify-content-center -->
+        <h6 class="secondary"> Travel 363 </h6>
+ 
+        <button class="btn navbar-toggler" type="button" data-toggle="collapse" href="#navbarNavDropdown" role="button" aria-controls="#navbarNavDropdown" aria-expanded="true">
+            <span class="navbar-toggler-icon"></span>
+        </button>  
+
+        <div class="collapse show col-lg-5 " id="navbarNavDropdown"> <!-- learn how to collaps/ uncollaps-->
+            <ul class="navbar-nav navbar-expand-lg justify-content-between"> <!-- ml-auto-->
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home </a> <!-- <span class="sr-only">(current)</span> look into it-->
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Lodging</a> <!-- <span class="sr-only">(current)</span> look into it-->
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Restaurants</a> <!-- <span class="sr-only">(current)</span> look into it-->
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Things To Do</a> <!-- <span class="sr-only">(current)</span> look into it-->
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Gallery</a> <!-- <span class="sr-only">(current)</span> look into it-->
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Contact</a> <!-- <span class="sr-only">(current)</span> look into it-->
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <img class="col-12" src="images/map.jpg" alt="Map of Block Island"> 
+    <!-- maybe get a better picture for the header -->
+
+    <h5 class="card-title m-3 secondary">About</h5>
+    <div class="card m-3"> 
+        <div class="card-body d-flex justify-content-center bg-light">
+            <div> 
+                <p class="card-text"> Block Island is a small island off the coast of Rhode Island packed full of fun for the whole family.  Accessible by personal boat or our very own ferry, Block Island has been a different sort of “Island Get Away” for generations.  Whether you’re coming for the beaches, the Lighthouses, or the restaurants, we assure you that this will be a vacation with memories to last a lifetime!
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <h5 class="m-3 secondary">Lodging</h5>
+    <section class="d-flex flex-wrap justify-content-center m-3">
+        <section class="card col-12 col-md-6 col-lg-4 p-2 bg-light">
+            <img src="images/narragansettinn.jpeg" class="card-img-top" alt="Photo of the Narragansett Inn" height="250">
+            <div class="card-body">
+                <h5 class="card-title secondary">Narragansett Inn</h5>
+                <p class="card-text">The Narragansett Inn stands on the shores of the Great Salt Pond with its marinas, restaurants and shops, with wide veranda and lawns offer spectacular views of the beautiful New Harbor.</p>
+            </div>
+            <a href="http://www.narragansettinn.net/" class="btn btn-primary button m-2">Book Now</a> 
+        </section>
+        <section class="card col-12 col-md-6 col-lg-4 p-2 bg-light">
+            <img src="images/springhouse.jpg" class="card-img-top" alt="Photo of the Spring House" height="250">
+            <div class="card-body">
+                <h5 class="card-title secondary">Spring House</h5>
+                <p class="card-text">The Spring House Hotel is considered one of Block Island's most elegant historic landmarks. With its wraparound veranda, mansard roof, distinctive cupola, and breathtaking view of the Atlantic Ocean and Block Island's foothills, it is no wonder why the hotel is included among New England's most desirable destinations.</p>
+            </div>
+            <a href="http://www.narragansettinn.net/" class="btn btn-primary button m-2">Book Now</a>
+        </section>
+        <section class="card col-12 col-md-6 col-lg-4 p-2 bg-light">
+            <img src="images/nationalhotel.jpg" class="card-img-top" alt="Photo of the National Hotel" height="250">
+            <div class="card-body">
+                <h5 class="card-title secondary">National Hotel</h5>
+                <p class="card-text">The National Hotel is the flagship victorian hotel on Block Island.  Located in the center of downtown in Old Harbor across from the ferry landing and New England’s best beaches.</p>
+            </div>
+            <a href="http://www.narragansettinn.net/" class="btn btn-primary button m-2">Book Now</a>
+        </section>
+        <a href="#" class="btn btn-primary button m-2">More</a> 
+    </section>
+
+    <h5 class="m-3 secondary">Restaurants</h5>
+    <section class="d-flex flex-wrap justify-content-center m-3">
+        <section class="card col-12 col-md-6 col-lg-4 p-2 bg-light">
+            <img src="images/theoar.jpg" class="card-img-top" alt="Photo of The Oar restaurant" height="250">
+            <div class="card-body">
+                <h5 class="card-title secondary">The Oar</h5>
+                <p class="card-text">Located at the Boat Basin in New Harbor on the beautiful Great Salt Pond, The Oar offers something for everyone, including the area’s best clam chowder, New England lobster rolls, burgers, and a full sushi bar.</p>
+            </div>
+            <a href="https://www.facebook.com/The-Oar-90029610328/" class="btn btn-primary button m-2">Reservation</a>
+        </section>
+        <section class="card col-12 col-md-6 col-lg-4 p-2 bg-light">
+            <img src="images/beachead.jpg" class="card-img-top" alt="Photo of Beachead restaurant" height="250">
+            <div class="card-body">
+                <h5 class="card-title secondary">Beachead</h5>
+                <p class="card-text">Becky & Tim Clark lead the Beachead team focusing on quality, innovation, and hospitality. With a passion for the culinary craft and destination locations, Tim & Becky are the proud owners of Aimer la vie Restaurant Group. </p>
+            </div>
+            <a href="https://www.beacheadbi.com/" class="btn btn-primary button m-2">Reservation</a>
+        </section>
+        <section class="card col-12 col-md-6 col-lg-4 p-2 bg-light">
+            <img src="images/deadeyedicks.png" class="card-img-top" alt="Photo of Dead Eye Dick's restaurant" height="250">
+            <div class="card-body">
+                <h5 class="card-title secondary">Dead Eye Dick's</h5>
+                <p class="card-text">Open from May through September, diners can enjoy homemade soups, an extensive raw bar, creative cocktails, wine and microbrews in our casual dining room or outside on the deck overlooking New Harbor.</p>
+            </div>
+            <a href="http://www.deadeyedicksbi.com/" class="btn btn-primary button m-2">Reservation</a>
+        </section>
+        <a href="#" class="btn btn-primary button m-2">More</a>
+    </section>
+
+    <h5 class="m-3 secondary">Things To Do</h5>
+    <section class="d-flex flex-wrap justify-content-center m-3"> 
+        <div class="card mb-3 col-12 col-lg-6 bg-light">
+            <div class="row no-gutters">
+                <div class="col-md-4 d-flex align-items-center">
+                    <img src="images/beach.jpeg" class="card-img" height="150" alt="Photo of wooden steps leading down to a beach">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title secondary">Beaches</h5>
+                        <p class="card-text">Block Island has beaches that are unmatched along the East Coast, making it the perfect destination to catch some sun and splash in the surf!</p>
+                        <a href="#" class="btn btn-primary button">More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card mb-3 col-12 col-lg-6 bg-light">
+            <div class="row no-gutters">
+                <div class="col-md-4 d-flex align-items-center">
+                    <img src="images/bars.jpeg" class="card-img" height="150" alt="photo of a red cocktail in a martini glass">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title secondary">Bars</h5>
+                        <p class="card-text">After a long day of sun bathing, shopping, and relaxing, it's time to check out Block Island's night life and hit the local bars! </p>
+                        <a href="#" class="btn btn-primary button">More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card mb-3 col-12 col-lg-6 bg-light">
+            <div class="row no-gutters">
+                <div class="col-md-4 d-flex align-items-center">
+                    <img src="images/music.jpeg" class="card-img" height="150" alt="photo of a man on stage playing guitar">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title secondary">Live Music</h5>
+                        <p class="card-text">What's a good time out without a sound track? It's not uncommon for any of Block Island's many fantastic bars and restaurants to offer dinner and a show!</p>
+                        <a href="#" class="btn btn-primary button">More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card mb-3 col-12 col-lg-6 bg-light">
+            <div class="row no-gutters">
+                <div class="col-md-4 d-flex align-items-center">
+                    <img src="images/shopping.jpeg" class="card-img" height="150" alt="Image of a woman holding shopping bags">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title secondary">Shopping</h5>
+                        <p class="card-text">When you're not soaking up the sun, make a day of shopping along main street to pick up a souvenir to remind yourself of what a great vacation you had!</p>
+                        <a href="#" class="btn btn-primary button">More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card mb-3 col-12 col-lg-6 bg-light">
+            <div class="row no-gutters">
+                <div class="col-md-4 d-flex align-items-center">
+                    <img src="images/moped.jpeg" class="card-img" height="150" alt="photo of an orange moped next to some bushes">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title secondary">Moped Rental</h5>
+                        <p class="card-text">Block Island has so muc to offer, it can be hard to squeeze it all in.  Maybe a moped rental will help you get around and see all the sights before your trip is over!</p>
+                        <a href="#" class="btn btn-primary button">More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card mb-3 col-12 col-lg-6 bg-light">
+            <div class="row no-gutters">
+                <div class="col-md-4 d-flex align-items-center">
+                    <img src="images/lighthouse.jpeg" class="card-img" height="150" alt="photo of a lighthouse on a cliff near the ocean">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title secondary">Full Calendar</h5>
+                        <p class="card-text">There is always so much happening on Block Island.  Check out our complete calendar of events to make sure you don't miss a thing! </p>
+                        <a href="#" class="btn btn-primary button">More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <h5 class="m-3 secondary">Gallery</h5>
+    <section class="d-flex flex-wrap justify-content-center m-3"> 
+        <div class="bg-light card text-white col-6 col-md-4 col-lg-3">
+            <img src="images/bars.jpeg" class="card-img my-auto rounded-lg" height="200" alt="photo of a red cocktail in a martini glass">
+            <div class="card-img-overlay">
+              <h5 class="card-title shadow photoTag">Bars</h5>
+            </div>
+        </div>
+        <div class="bg-light text-white card col-6 col-md-4 col-lg-3">
+            <img src="images/beach.jpeg" class="card-img  my-auto rounded-lg" height="200" alt="Photo of wooden steps leading to a beach">
+            <div class="card-img-overlay">
+                <h5 class="card-title shadow photoTag">Beaches</h5>
+            </div>
+        </div>
+        <div class="bg-light text-white card col-6 col-md-4 col-lg-3">
+            <img src="images/beachead.jpg" class="card-img my-auto rounded-lg" height="200" alt="Photo of Beachead Restaurant">
+            <div class="card-img-overlay">
+                <h5 class="card-title shadow photoTag">Beachead</h5>
+            </div>
+        </div>
+        <div class="bg-light text-white card col-6 col-md-4 col-lg-3">
+            <img src="images/deadeyedicks.png" class="card-img my-auto rounded-lg" height="200" alt="Photo of Dead Eye Dick's restaurant">
+            <div class="card-img-overlay">
+                <h5 class="card-title shadow photoTag">Dead Eye Dick's</h5>
+            </div>
+        </div>
+        <div class="bg-light text-white card col-6 col-md-4 col-lg-3">
+            <img src="images/lighthouse.jpeg" class="card-img my-auto rounded-lg" height="200" alt="Photo of a Lighthouse on a cliff by the ocean">
+            <div class="card-img-overlay">
+                <h5 class="card-title shadow photoTag">Light House</h5>
+            </div>
+        </div>
+        <div class="bg-light text-white card col-6 col-md-4 col-lg-3">
+            <img src="images/moped.jpeg" class="card-img my-auto rounded-lg" height="200" alt="photo of a moped by a row of bushes">
+            <div class="card-img-overlay">
+                <h5 class="card-title shadow photoTag">Mopeds</h5>
+            </div>
+        </div>
+        <div class="bg-light text-white card col-6 col-md-4 col-lg-3">
+            <img src="images/music.jpeg" class="card-img my-auto rounded-lg" height="200" alt="photo of a man playing guitar">
+            <div class="card-img-overlay">
+                <h5 class="card-title shadow photoTag">Music</h5>
+            </div>
+        </div>
+        <div class="bg-light text-white card col-6 col-md-4 col-lg-3">
+            <img src="images/narragansettinn.jpeg" class="card-img my-auto rounded-lg" height="200" alt="Photo of the Narragansett Inn">
+            <div class="card-img-overlay">
+                <h5 class="card-title shadow photoTag">Narragansett Inn</h5>
+            </div>
+        </div>
+        <div class="bg-light text-white card col-6 col-md-4 col-lg-3">
+            <img src="images/nationalhotel.jpg" class="card-img my-auto rounded-lg" height="200" alt="Photo of the National Hotel">
+            <div class="card-img-overlay">
+                <h5 class="card-title shadow photoTag">The National Hotel</h5>
+            </div>
+        </div>
+        <div class="bg-light text-white card col-6 col-md-4 col-lg-3">
+            <img src="images/shopping.jpeg" class="card-img my-auto rounded-lg" height="200" alt="Photo of a woman holding a shopping bag">
+            <div class="card-img-overlay">
+                <h5 class="card-title shadow photoTag">Shopping</h5>
+            </div>
+        </div>
+        <div class="bg-light text-white card col-6 col-md-4 col-lg-3">
+            <img src="images/springhouse.jpg" class="card-img my-auto rounded-lg" height="200" alt="Photo of the Spring House">
+            <div class="card-img-overlay">
+                <h5 class="card-title shadow photoTag">The Spring House</h5>
+            </div>
+        </div>
+        <div class="bg-light text-white card col-6 col-md-4 col-lg-3">
+            <img src="images/theoar.jpg" class="card-img my-auto rounded-lg" height="200" alt="Image of the inside of The Oar restaurant">
+            <div class="card-img-overlay">
+                <h5 class="card-title shadow photoTag">The Oar</h5>
+            </div>
+        </div>
+        <a href="#" class="btn btn-primary button m-2">More</a>
+    </section>
+
+    <h5 class="m-3 secondary">Contact</h5>
+    <form class="m-3">
+        <div class="form-group">
+            <label >Name</label>
+            <input class="form-control" placeholder="John Smith">
+        </div>
+        <div class="form-group">
+            <label >Email</label>
+            <input class="form-control" placeholder="JSmith@example.com">
+        </div>
+        <div class="form-group">
+            <label >Phone Number</label>
+            <input class="form-control" placeholder="(555) 123-4567">
+        </div>
+        <div class="form-group">
+            <label >Message</label>
+            <input class="form-control" placeholder="Write Message Here">
+        </div>
+        
+        <button type="submit" class="btn btn-primary button">Submit</button>
+    </form>
+
+    <footer class="primary p-2 pt-4">
+        <div class="col-12 d-flex justify-content-center">
+            <h6>Travel 363</h6>
+        </div>
+        <div class="col-12 d-flex justify-content-center">
+            <ul class="list-inline">
+                <li class="list-inline-item"> 
+                    Privacy Policy 
+                </li>
+                <li class="list-inline-item">
+                    Terms of Service
+                </li>
+                <li class="list-inline-item">
+                    Accessibility
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>
